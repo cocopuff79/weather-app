@@ -1,0 +1,80 @@
+body {
+  background: #f9f7fe;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.form-city {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 16px;
+  width: 70%;
+}
+
+.form-submit {
+  background-color: #885df1;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  padding: 16px;
+}
+
+.weather {
+  background: white;
+  border-radius: 10px;
+  box-shadow: 30px #a9a6b3;
+  margin: 60px auto;
+  max-width: 550px;
+  padding: 20px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+
+.current-temp {
+  color: #a9a6b3;
+  font-size: 15px;
+}
+
+.current-temp strong {
+  color: #f87082;
+}
+
+.today-temp {
+  position: relative;
+  top: 10px;
+}
+
+.temp-icon {
+  position: relative;
+  top: -5px;
+  font-size: 40px;
+}
+
+.temp-degree {
+  font-size: 72px;
+  font-weight: bold;
+}
+
+.temp-unit {
+  font-size: 24px;
+  position: relative;
+  top: -35px;
+}
+
+footer {
+  color: #a9a6b3;
+  font-size: 15px;
+  margin: 20px auto;
+  text-align: center;
+}
